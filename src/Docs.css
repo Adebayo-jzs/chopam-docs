@@ -180,7 +180,7 @@
   padding: 6px 12px;
   background: transparent;
   border: 1px solid var(--border-color);
-  border-radius: 8px;
+  border-radius: 12px;
   color: var(--text-sidebar);
   font-size: 0.85rem;
   font-weight: 500;
@@ -473,7 +473,7 @@
 .code-copy-btn {
   background: none;
   border: 1px solid var(--border-color);
-  border-radius: 5px;
+  border-radius: 11px;
   padding: 3px 8px;
   color: var(--text-muted);
   font-size: 12px;
@@ -909,7 +909,7 @@
   background: var(--bg-sidebar);
   border: 1px solid var(--border-color);
   padding: 3px;
-  border-radius: 8px;
+  border-radius: 12px;
   margin-right: 8px;
 }
 
