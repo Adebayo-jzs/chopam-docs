@@ -5,7 +5,7 @@ import { LanguageContext, CodeBlock, CodeGroup, EndpointBadge, ParamTable, Callo
 import './Docs.css';
 import { SEARCH_INDEX } from './DocsSearchIndex';
 import { HugeiconsIcon } from '@hugeicons/react';
-import { GreaterThanIcon, SearchIcon, LessThanIcon, Menu01Icon, Cancel01Icon } from '@hugeicons/core-free-icons';
+import { GreaterThanIcon, SearchIcon, LessThanIcon, Menu01Icon, Cancel01Icon, ServingFoodIcon } from '@hugeicons/core-free-icons';
 
 /* ── Navigation structure ── */
 const NAV = [
@@ -370,7 +370,7 @@ export default function DocsPage() {
         </button>
 
         <Link to="/" className="docs-navbar-logo">
-          <div className="navbar-logo-icon">C</div>
+          <div className="navbar-logo-icon"><HugeiconsIcon icon={ServingFoodIcon} size={20} /></div>
           <span>ChopAm API</span>
         </Link>
 
